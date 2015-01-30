@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1654E7FC1A7B0E00005EFAB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1654E7FB1A7B0E00005EFAB7 /* main.m */; };
+		1654E7FF1A7B0E00005EFAB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1654E7FE1A7B0E00005EFAB7 /* AppDelegate.m */; };
+		1654E8021A7B0E00005EFAB7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1654E8011A7B0E00005EFAB7 /* FirstViewController.m */; };
+		1654E8071A7B0E00005EFAB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1654E8061A7B0E00005EFAB7 /* Images.xcassets */; };
+		1654E8161A7B0E00005EFAB7 /* TYTabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1654E8151A7B0E00005EFAB7 /* TYTabBarControllerTests.m */; };
+		1654E8241A7B1173005EFAB7 /* Default-414w-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1654E81F1A7B1173005EFAB7 /* Default-414w-736h@3x.png */; };
+		1654E8251A7B1173005EFAB7 /* Default-375w-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1654E8201A7B1173005EFAB7 /* Default-375w-667h@2x.png */; };
+		1654E8261A7B1173005EFAB7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1654E8211A7B1173005EFAB7 /* Default-568h@2x.png */; };
+		1654E8271A7B1173005EFAB7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1654E8221A7B1173005EFAB7 /* Default.png */; };
+		1654E8281A7B1173005EFAB7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1654E8231A7B1173005EFAB7 /* Default@2x.png */; };
+		1654E8361A7B129E005EFAB7 /* icon_tab1_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1654E82A1A7B129E005EFAB7 /* icon_tab1_nor@2x.png */; };
+		1654E8371A7B129E005EFAB7 /* icon_tab1_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1654E82B1A7B129E005EFAB7 /* icon_tab1_nor@3x.png */; };
+		1654E8381A7B129E005EFAB7 /* icon_tab1_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1654E82C1A7B129E005EFAB7 /* icon_tab1_sel@2x.png */; };
+		1654E8391A7B129E005EFAB7 /* icon_tab1_sel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1654E82D1A7B129E005EFAB7 /* icon_tab1_sel@3x.png */; };
+		1654E83A1A7B129E005EFAB7 /* icon_tab2_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1654E82E1A7B129E005EFAB7 /* icon_tab2_nor@2x.png */; };
+		1654E83B1A7B129E005EFAB7 /* icon_tab2_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1654E82F1A7B129E005EFAB7 /* icon_tab2_nor@3x.png */; };
+		1654E83C1A7B129E005EFAB7 /* icon_tab2_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1654E8301A7B129E005EFAB7 /* icon_tab2_sel@2x.png */; };
+		1654E83D1A7B129E005EFAB7 /* icon_tab2_sel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1654E8311A7B129E005EFAB7 /* icon_tab2_sel@3x.png */; };
+		1654E83E1A7B129E005EFAB7 /* icon_tab3_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1654E8321A7B129E005EFAB7 /* icon_tab3_nor@2x.png */; };
+		1654E83F1A7B129E005EFAB7 /* icon_tab3_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1654E8331A7B129E005EFAB7 /* icon_tab3_nor@3x.png */; };
+		1654E8401A7B129E005EFAB7 /* icon_tab3_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1654E8341A7B129E005EFAB7 /* icon_tab3_sel@2x.png */; };
+		1654E8411A7B129E005EFAB7 /* icon_tab3_sel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1654E8351A7B129E005EFAB7 /* icon_tab3_sel@3x.png */; };
+		1654E8491A7B132E005EFAB7 /* TYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1654E8441A7B132E005EFAB7 /* TYTabBarController.m */; };
+		1654E84A1A7B132E005EFAB7 /* TYTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1654E8461A7B132E005EFAB7 /* TYTabBarItem.m */; };
+		1654E84B1A7B132E005EFAB7 /* UIViewController+TYTabBarControllerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1654E8481A7B132E005EFAB7 /* UIViewController+TYTabBarControllerItem.m */; };
+		1654E84E1A7B1413005EFAB7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1654E84D1A7B1413005EFAB7 /* SecondViewController.m */; };
+		1654E8511A7B1425005EFAB7 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1654E8501A7B1425005EFAB7 /* ThirdViewController.m */; };
+		1654E8531A7B1448005EFAB7 /* FirstSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1654E8521A7B1448005EFAB7 /* FirstSB.storyboard */; };
+		1654E8551A7B1455005EFAB7 /* SecondSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1654E8541A7B1455005EFAB7 /* SecondSB.storyboard */; };
+		1654E8571A7B1467005EFAB7 /* ThirdSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1654E8561A7B1467005EFAB7 /* ThirdSB.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1654E8101A7B0E00005EFAB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1654E7EE1A7B0DFF005EFAB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1654E7F51A7B0E00005EFAB7;
+			remoteInfo = TYTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1654E7F61A7B0E00005EFAB7 /* TYTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1654E7FA1A7B0E00005EFAB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1654E7FB1A7B0E00005EFAB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1654E7FD1A7B0E00005EFAB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1654E7FE1A7B0E00005EFAB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1654E8001A7B0E00005EFAB7 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		1654E8011A7B0E00005EFAB7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		1654E8061A7B0E00005EFAB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1654E80F1A7B0E00005EFAB7 /* TYTabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYTabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1654E8141A7B0E00005EFAB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1654E8151A7B0E00005EFAB7 /* TYTabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYTabBarControllerTests.m; sourceTree = "<group>"; };
+		1654E81F1A7B1173005EFAB7 /* Default-414w-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-414w-736h@3x.png"; sourceTree = "<group>"; };
+		1654E8201A7B1173005EFAB7 /* Default-375w-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-375w-667h@2x.png"; sourceTree = "<group>"; };
+		1654E8211A7B1173005EFAB7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1654E8221A7B1173005EFAB7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1654E8231A7B1173005EFAB7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1654E82A1A7B129E005EFAB7 /* icon_tab1_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tab1_nor@2x.png"; sourceTree = "<group>"; };
+		1654E82B1A7B129E005EFAB7 /* icon_tab1_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tab1_nor@3x.png"; sourceTree = "<group>"; };
+		1654E82C1A7B129E005EFAB7 /* icon_tab1_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tab1_sel@2x.png"; sourceTree = "<group>"; };
+		1654E82D1A7B129E005EFAB7 /* icon_tab1_sel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tab1_sel@3x.png"; sourceTree = "<group>"; };
+		1654E82E1A7B129E005EFAB7 /* icon_tab2_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tab2_nor@2x.png"; sourceTree = "<group>"; };
+		1654E82F1A7B129E005EFAB7 /* icon_tab2_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tab2_nor@3x.png"; sourceTree = "<group>"; };
+		1654E8301A7B129E005EFAB7 /* icon_tab2_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tab2_sel@2x.png"; sourceTree = "<group>"; };
+		1654E8311A7B129E005EFAB7 /* icon_tab2_sel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tab2_sel@3x.png"; sourceTree = "<group>"; };
+		1654E8321A7B129E005EFAB7 /* icon_tab3_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tab3_nor@2x.png"; sourceTree = "<group>"; };
+		1654E8331A7B129E005EFAB7 /* icon_tab3_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tab3_nor@3x.png"; sourceTree = "<group>"; };
+		1654E8341A7B129E005EFAB7 /* icon_tab3_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tab3_sel@2x.png"; sourceTree = "<group>"; };
+		1654E8351A7B129E005EFAB7 /* icon_tab3_sel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tab3_sel@3x.png"; sourceTree = "<group>"; };
+		1654E8431A7B132E005EFAB7 /* TYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabBarController.h; sourceTree = "<group>"; };
+		1654E8441A7B132E005EFAB7 /* TYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabBarController.m; sourceTree = "<group>"; };
+		1654E8451A7B132E005EFAB7 /* TYTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabBarItem.h; sourceTree = "<group>"; };
+		1654E8461A7B132E005EFAB7 /* TYTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabBarItem.m; sourceTree = "<group>"; };
+		1654E8471A7B132E005EFAB7 /* UIViewController+TYTabBarControllerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TYTabBarControllerItem.h"; sourceTree = "<group>"; };
+		1654E8481A7B132E005EFAB7 /* UIViewController+TYTabBarControllerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TYTabBarControllerItem.m"; sourceTree = "<group>"; };
+		1654E84C1A7B1413005EFAB7 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1654E84D1A7B1413005EFAB7 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		1654E84F1A7B1425005EFAB7 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		1654E8501A7B1425005EFAB7 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		1654E8521A7B1448005EFAB7 /* FirstSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FirstSB.storyboard; sourceTree = "<group>"; };
+		1654E8541A7B1455005EFAB7 /* SecondSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SecondSB.storyboard; sourceTree = "<group>"; };
+		1654E8561A7B1467005EFAB7 /* ThirdSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ThirdSB.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1654E7F31A7B0E00005EFAB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1654E80C1A7B0E00005EFAB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1654E7ED1A7B0DFF005EFAB7 = {
+			isa = PBXGroup;
+			children = (
+				1654E7F81A7B0E00005EFAB7 /* TYTabBarController */,
+				1654E8121A7B0E00005EFAB7 /* TYTabBarControllerTests */,
+				1654E7F71A7B0E00005EFAB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1654E7F71A7B0E00005EFAB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1654E7F61A7B0E00005EFAB7 /* TYTabBarController.app */,
+				1654E80F1A7B0E00005EFAB7 /* TYTabBarControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1654E7F81A7B0E00005EFAB7 /* TYTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				1654E8421A7B132E005EFAB7 /* TYTabBarController */,
+				1654E7FD1A7B0E00005EFAB7 /* AppDelegate.h */,
+				1654E7FE1A7B0E00005EFAB7 /* AppDelegate.m */,
+				1654E8001A7B0E00005EFAB7 /* FirstViewController.h */,
+				1654E8011A7B0E00005EFAB7 /* FirstViewController.m */,
+				1654E84C1A7B1413005EFAB7 /* SecondViewController.h */,
+				1654E84D1A7B1413005EFAB7 /* SecondViewController.m */,
+				1654E84F1A7B1425005EFAB7 /* ThirdViewController.h */,
+				1654E8501A7B1425005EFAB7 /* ThirdViewController.m */,
+				1654E8521A7B1448005EFAB7 /* FirstSB.storyboard */,
+				1654E8541A7B1455005EFAB7 /* SecondSB.storyboard */,
+				1654E8561A7B1467005EFAB7 /* ThirdSB.storyboard */,
+				1654E8061A7B0E00005EFAB7 /* Images.xcassets */,
+				1654E7F91A7B0E00005EFAB7 /* Supporting Files */,
+			);
+			path = TYTabBarController;
+			sourceTree = "<group>";
+		};
+		1654E7F91A7B0E00005EFAB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1654E8291A7B129E005EFAB7 /* images */,
+				1654E81F1A7B1173005EFAB7 /* Default-414w-736h@3x.png */,
+				1654E8201A7B1173005EFAB7 /* Default-375w-667h@2x.png */,
+				1654E8211A7B1173005EFAB7 /* Default-568h@2x.png */,
+				1654E8221A7B1173005EFAB7 /* Default.png */,
+				1654E8231A7B1173005EFAB7 /* Default@2x.png */,
+				1654E7FA1A7B0E00005EFAB7 /* Info.plist */,
+				1654E7FB1A7B0E00005EFAB7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1654E8121A7B0E00005EFAB7 /* TYTabBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1654E8151A7B0E00005EFAB7 /* TYTabBarControllerTests.m */,
+				1654E8131A7B0E00005EFAB7 /* Supporting Files */,
+			);
+			path = TYTabBarControllerTests;
+			sourceTree = "<group>";
+		};
+		1654E8131A7B0E00005EFAB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1654E8141A7B0E00005EFAB7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1654E8291A7B129E005EFAB7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1654E82A1A7B129E005EFAB7 /* icon_tab1_nor@2x.png */,
+				1654E82B1A7B129E005EFAB7 /* icon_tab1_nor@3x.png */,
+				1654E82C1A7B129E005EFAB7 /* icon_tab1_sel@2x.png */,
+				1654E82D1A7B129E005EFAB7 /* icon_tab1_sel@3x.png */,
+				1654E82E1A7B129E005EFAB7 /* icon_tab2_nor@2x.png */,
+				1654E82F1A7B129E005EFAB7 /* icon_tab2_nor@3x.png */,
+				1654E8301A7B129E005EFAB7 /* icon_tab2_sel@2x.png */,
+				1654E8311A7B129E005EFAB7 /* icon_tab2_sel@3x.png */,
+				1654E8321A7B129E005EFAB7 /* icon_tab3_nor@2x.png */,
+				1654E8331A7B129E005EFAB7 /* icon_tab3_nor@3x.png */,
+				1654E8341A7B129E005EFAB7 /* icon_tab3_sel@2x.png */,
+				1654E8351A7B129E005EFAB7 /* icon_tab3_sel@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		1654E8421A7B132E005EFAB7 /* TYTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				1654E8431A7B132E005EFAB7 /* TYTabBarController.h */,
+				1654E8441A7B132E005EFAB7 /* TYTabBarController.m */,
+				1654E8451A7B132E005EFAB7 /* TYTabBarItem.h */,
+				1654E8461A7B132E005EFAB7 /* TYTabBarItem.m */,
+				1654E8471A7B132E005EFAB7 /* UIViewController+TYTabBarControllerItem.h */,
+				1654E8481A7B132E005EFAB7 /* UIViewController+TYTabBarControllerItem.m */,
+			);
+			path = TYTabBarController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1654E7F51A7B0E00005EFAB7 /* TYTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1654E8191A7B0E00005EFAB7 /* Build configuration list for PBXNativeTarget "TYTabBarController" */;
+			buildPhases = (
+				1654E7F21A7B0E00005EFAB7 /* Sources */,
+				1654E7F31A7B0E00005EFAB7 /* Frameworks */,
+				1654E7F41A7B0E00005EFAB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYTabBarController;
+			productName = TYTabBarController;
+			productReference = 1654E7F61A7B0E00005EFAB7 /* TYTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1654E80E1A7B0E00005EFAB7 /* TYTabBarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1654E81C1A7B0E00005EFAB7 /* Build configuration list for PBXNativeTarget "TYTabBarControllerTests" */;
+			buildPhases = (
+				1654E80B1A7B0E00005EFAB7 /* Sources */,
+				1654E80C1A7B0E00005EFAB7 /* Frameworks */,
+				1654E80D1A7B0E00005EFAB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1654E8111A7B0E00005EFAB7 /* PBXTargetDependency */,
+			);
+			name = TYTabBarControllerTests;
+			productName = TYTabBarControllerTests;
+			productReference = 1654E80F1A7B0E00005EFAB7 /* TYTabBarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1654E7EE1A7B0DFF005EFAB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "zou tianyu";
+				TargetAttributes = {
+					1654E7F51A7B0E00005EFAB7 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					1654E80E1A7B0E00005EFAB7 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 1654E7F51A7B0E00005EFAB7;
+					};
+				};
+			};
+			buildConfigurationList = 1654E7F11A7B0DFF005EFAB7 /* Build configuration list for PBXProject "TYTabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1654E7ED1A7B0DFF005EFAB7;
+			productRefGroup = 1654E7F71A7B0E00005EFAB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1654E7F51A7B0E00005EFAB7 /* TYTabBarController */,
+				1654E80E1A7B0E00005EFAB7 /* TYTabBarControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1654E7F41A7B0E00005EFAB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1654E8371A7B129E005EFAB7 /* icon_tab1_nor@3x.png in Resources */,
+				1654E83B1A7B129E005EFAB7 /* icon_tab2_nor@3x.png in Resources */,
+				1654E83F1A7B129E005EFAB7 /* icon_tab3_nor@3x.png in Resources */,
+				1654E8381A7B129E005EFAB7 /* icon_tab1_sel@2x.png in Resources */,
+				1654E83A1A7B129E005EFAB7 /* icon_tab2_nor@2x.png in Resources */,
+				1654E83E1A7B129E005EFAB7 /* icon_tab3_nor@2x.png in Resources */,
+				1654E8281A7B1173005EFAB7 /* Default@2x.png in Resources */,
+				1654E8411A7B129E005EFAB7 /* icon_tab3_sel@3x.png in Resources */,
+				1654E8531A7B1448005EFAB7 /* FirstSB.storyboard in Resources */,
+				1654E8071A7B0E00005EFAB7 /* Images.xcassets in Resources */,
+				1654E83D1A7B129E005EFAB7 /* icon_tab2_sel@3x.png in Resources */,
+				1654E8571A7B1467005EFAB7 /* ThirdSB.storyboard in Resources */,
+				1654E8361A7B129E005EFAB7 /* icon_tab1_nor@2x.png in Resources */,
+				1654E8261A7B1173005EFAB7 /* Default-568h@2x.png in Resources */,
+				1654E8241A7B1173005EFAB7 /* Default-414w-736h@3x.png in Resources */,
+				1654E8251A7B1173005EFAB7 /* Default-375w-667h@2x.png in Resources */,
+				1654E8551A7B1455005EFAB7 /* SecondSB.storyboard in Resources */,
+				1654E8271A7B1173005EFAB7 /* Default.png in Resources */,
+				1654E8391A7B129E005EFAB7 /* icon_tab1_sel@3x.png in Resources */,
+				1654E8401A7B129E005EFAB7 /* icon_tab3_sel@2x.png in Resources */,
+				1654E83C1A7B129E005EFAB7 /* icon_tab2_sel@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1654E80D1A7B0E00005EFAB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1654E7F21A7B0E00005EFAB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1654E84A1A7B132E005EFAB7 /* TYTabBarItem.m in Sources */,
+				1654E8491A7B132E005EFAB7 /* TYTabBarController.m in Sources */,
+				1654E8511A7B1425005EFAB7 /* ThirdViewController.m in Sources */,
+				1654E8021A7B0E00005EFAB7 /* FirstViewController.m in Sources */,
+				1654E84E1A7B1413005EFAB7 /* SecondViewController.m in Sources */,
+				1654E7FF1A7B0E00005EFAB7 /* AppDelegate.m in Sources */,
+				1654E84B1A7B132E005EFAB7 /* UIViewController+TYTabBarControllerItem.m in Sources */,
+				1654E7FC1A7B0E00005EFAB7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1654E80B1A7B0E00005EFAB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1654E8161A7B0E00005EFAB7 /* TYTabBarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1654E8111A7B0E00005EFAB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1654E7F51A7B0E00005EFAB7 /* TYTabBarController */;
+			targetProxy = 1654E8101A7B0E00005EFAB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1654E8171A7B0E00005EFAB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1654E8181A7B0E00005EFAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1654E81A1A7B0E00005EFAB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TYTabBarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1654E81B1A7B0E00005EFAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TYTabBarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1654E81D1A7B0E00005EFAB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TYTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYTabBarController.app/TYTabBarController";
+			};
+			name = Debug;
+		};
+		1654E81E1A7B0E00005EFAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TYTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYTabBarController.app/TYTabBarController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1654E7F11A7B0DFF005EFAB7 /* Build configuration list for PBXProject "TYTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1654E8171A7B0E00005EFAB7 /* Debug */,
+				1654E8181A7B0E00005EFAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1654E8191A7B0E00005EFAB7 /* Build configuration list for PBXNativeTarget "TYTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1654E81A1A7B0E00005EFAB7 /* Debug */,
+				1654E81B1A7B0E00005EFAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1654E81C1A7B0E00005EFAB7 /* Build configuration list for PBXNativeTarget "TYTabBarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1654E81D1A7B0E00005EFAB7 /* Debug */,
+				1654E81E1A7B0E00005EFAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1654E7EE1A7B0DFF005EFAB7 /* Project object */;
+}
